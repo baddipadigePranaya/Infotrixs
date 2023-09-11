@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="landingpage.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <title>Educational platform</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="heading">Educational platform</div>
+      <span class="sideMenuButton" onclick="openNavbar()"> ☰ </span>
+
+      <div class="navbar">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#SignUp">Sign Up</a></li>
+          <li><a href="#Features">Features</a></li>
+
+          <li><a href="#Pricing">Pricing</a></li>
+
+          <li><a href="#FAQs">FAQs</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="sideNavigationBar" id="sideNavigationBar">
+      <a href="#" class="closeButton" onclick="closeNavbar()"> ❌ </a>
+      <a href="#">Home</a>
+      <a href="#About">About</a>
+      <a href="#SignUp">Sign Up</a>
+      <a href="#Features">Features</a>
+
+      <a href="#Pricing">Pricing</a>
+
+      <a href="#FAQs">FAQs</a>
+    </div>
+
+    <div class="line" id="Home">
+      <div class="side1">
+        <h1>GeeksforGeeks</h1>
+        <button>
+          <a href="https://www.geeksforgeeks.org/"> Explore More </a>
+        </button>
+      </div>
+      <div class="side2">
+        <img
+          src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220401124017/HTML-Tutorial.png"
+          width="500"
+        />
+      </div>
+    </div>
+
+    <section class="about" id="About">
+      <div class="content">
+        <div class="title">
+          <span>Courses</span>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">
+              <a href="" target="_blank"> DSA </a>
+            </div>
+            <p>
+              The term DSA stands for Data Structures and Algorithms. As the
+              name itself suggests, it is a combination of two separate yet
+              interrelated topics.
+            </p>
+          </div>
+          <div class="box">
+            <div class="topic">
+              <a href="" target="_blank"> HTML </a>
+            </div>
+            <p>
+              HTML stands for HyperText Markup Language. It is used to design
+              web pages using the markup language.
+            </p>
+          </div>
+
+          <div class="box">
+            <div class="topic">
+              <a href="" target="_blank"> Javascript </a>
+            </div>
+            <p>
+              JavaScript (JS) is the most popular lightweight, interpreted
+              compiled programming language.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="SignUp">
+      <div class="content">
+        <div class="title"><span>Sign Up</span></div>
+        <div class="contactMenu">
+          <div class="input1">
+            <div class="label1">Your Name</div>
+            <div class="input2">
+              <input type="text" placeholder="Enter your Name here" />
+            </div>
+            <div class="label1">
+              <label>Your Email</label>
+            </div>
+            <div class="input2">
+              <input type="text" placeholder="Enter your Email here" />
+            </div>
+            <div class="label1">
+              <label>Your Password</label>
+            </div>
+            <div class="input2">
+              <input type="text" placeholder="Enter your Password here" />
+            </div>
+            <div class="button">
+              <button>Sign Up</button>
+            </div>
+          </div>
+          <div class="input3">
+            <div class="rightside1">
+              <div class="title1">
+                <span> Contact Us </span>
+              </div>
+              <div class="content1">
+                A-143, 9th Floor, Sovereign Corporate Tower, Sector-136, Noida,
+                Uttar Pradesh - 201305
+              </div>
+              <div class="title1">
+                <span>More Information</span>
+              </div>
+              <div class="content1">
+                Greetings to all the Geeks out there! We welcome you to the
+                platform where we consistently strive to offer the best of
+                education. This platform has been designed for every geek
+                wishing to expand their knowledge, share their knowledge and is
+                ready to grab their dream job. We have millions of articles,
+                live as well as online courses, thousands of tutorials and much
+                more just for the geek inside you.Thank you for choosing and
+                supporting us!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tutorial-section">
+      <div class="container">
+        <h2>Features</h2>
+        <div class="tutorial-list">
+          <div class="tutorial-card">
+            <h3>HTML Basics</h3>
+            <p>Learn the fundamentals of HTML.</p>
+            <a href="html-basics.html">Read More</a>
+          </div>
+          <div class="tutorial-card">
+            <h3>CSS Styling</h3>
+            <p>Explore CSS for web styling.</p>
+            <a href="css-styling.html">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="Pricing">
+      <div class="content">
+        <div class="title">
+          <h2>Pricing</h2>
+        </div>
+        <div class="pricing-plans">
+          <div class="plan">
+            <h3>Basic Plan</h3>
+            <p>Price: $19/month</p>
+            <ul>
+              <li>Feature 1</li>
+              <li>Feature 2</li>
+              <li>Limited Access</li>
+            </ul>
+            <button>Subscribe</button>
+          </div>
+          <div class="plan">
+            <h3>Premium Plan</h3>
+            <p>Price: $49/month</p>
+            <ul>
+              <li>Feature 1</li>
+              <li>Feature 2</li>
+              <li>Feature 3</li>
+            </ul>
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="faqs" id="FAQs">
+      <div class="content">
+        <div class="title">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq">
+            <h3>What is "GeeksforGeeks"?</h3>
+            <p>
+              GeeksforGeeks is an online platform that offers a wide range of
+              educational content, including articles, tutorials, and courses on
+              various technical topics.
+            </p>
+          </div>
+          <div class="faq">
+            <h3>Who can benefit from GeeksforGeeks?</h3>
+            <p>
+              GeeksforGeeks is designed for students, professionals, and anyone
+              interested in learning about programming, computer science, and
+              related fields.
+            </p>
+          </div>
+
+          <div class="faq">
+            <h3>Is GeeksforGeeks free to use?</h3>
+            <p>
+              Yes, GeeksforGeeks provides a wealth of free educational
+              resources. However, there are also premium courses and features
+              available for a fee.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2023 Your Company. All Rights Reserved.
+      </div>
+    </footer>
+
+    <script src="landingpage.js"></script>
+  </body>
+</html>
